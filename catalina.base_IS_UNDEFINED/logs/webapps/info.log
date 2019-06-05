@@ -1,21 +1,9 @@
-2019-06-04 17:18:50.355 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Starting AreaDaoTest on Joey-Wang with PID 3644 (started by joeyw in D:\桌面临时文件\Springbooto2o)
-2019-06-04 17:18:50.357 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2019-06-04 17:59:28.867 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Starting AreaDaoTest on Joey-Wang with PID 13268 (started by joeyw in D:\桌面临时文件\Springbooto2o)
-2019-06-04 17:59:28.871 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2019-06-04 18:27:49.233 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Starting AreaDaoTest on Joey-Wang with PID 18556 (started by joeyw in D:\������ʱ�ļ�\Springbooto2o)
-2019-06-04 18:27:49.234 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2019-06-04 18:27:52.731 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Started AreaDaoTest in 3.794 seconds (JVM running for 4.881)
-2019-06-04 18:31:06.091 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Starting AreaDaoTest on Joey-Wang with PID 15948 (started by joeyw in D:\桌面临时文件\Springbooto2o)
-2019-06-04 18:31:06.092 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2019-06-04 18:31:09.909 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Started AreaDaoTest in 4.153 seconds (JVM running for 5.412)
-2019-06-04 23:35:08.312 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - Starting WechatAuthServiceTest on Joey-Wang with PID 13640 (started by joeyw in D:\桌面临时文件\Springbooto2o)
-2019-06-04 23:35:08.313 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - No active profile set, falling back to default profiles: default
-2019-06-04 23:46:14.140 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - Starting WechatAuthServiceTest on Joey-Wang with PID 31480 (started by joeyw in D:\桌面临时文件\Springbooto2o)
-2019-06-04 23:46:14.141 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - No active profile set, falling back to default profiles: default
-2019-06-04 23:46:17.964 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - Started WechatAuthServiceTest in 4.18 seconds (JVM running for 5.317)
-2019-06-04 23:48:23.251 [main] INFO  com.imooc.o2o.service.AreaServiceTest - Starting AreaServiceTest on Joey-Wang with PID 29900 (started by joeyw in D:\桌面临时文件\Springbooto2o)
-2019-06-04 23:48:23.252 [main] INFO  com.imooc.o2o.service.AreaServiceTest - No active profile set, falling back to default profiles: default
-2019-06-04 23:48:26.952 [main] INFO  com.imooc.o2o.service.AreaServiceTest - Started AreaServiceTest in 4.079 seconds (JVM running for 5.263)
-2019-06-04 23:50:36.033 [main] INFO  com.imooc.o2o.service.AreaServiceTest - Starting AreaServiceTest on Joey-Wang with PID 24996 (started by joeyw in D:\桌面临时文件\Springbooto2o)
-2019-06-04 23:50:36.034 [main] INFO  com.imooc.o2o.service.AreaServiceTest - No active profile set, falling back to default profiles: default
-2019-06-04 23:50:39.874 [main] INFO  com.imooc.o2o.service.AreaServiceTest - Started AreaServiceTest in 4.179 seconds (JVM running for 5.708)
+2019-06-05 21:31:11.823 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on Joey-Wang with PID 236 (started by joeyw in D:\桌面临时文件\Springbooto2o)
+2019-06-05 21:31:11.836 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2019-06-05 21:31:14.821 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.185 seconds (JVM running for 4.797)
+2019-06-05 21:35:25.425 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on Joey-Wang with PID 13996 (started by joeyw in D:\桌面临时文件\Springbooto2o)
+2019-06-05 21:35:25.427 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2019-06-05 21:35:28.434 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.204 seconds (JVM running for 4.965)
+2019-06-05 21:57:10.120 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on Joey-Wang with PID 25564 (started by joeyw in D:\桌面临时文件\Springbooto2o)
+2019-06-05 21:57:10.129 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2019-06-05 21:57:13.106 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.189 seconds (JVM running for 4.998)
