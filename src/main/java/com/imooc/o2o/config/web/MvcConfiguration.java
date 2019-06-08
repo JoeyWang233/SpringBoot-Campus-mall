@@ -1,6 +1,9 @@
 package com.imooc.o2o.config.web;
 
+import com.google.code.kaptcha.servlet.KaptchaServlet;
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
@@ -12,6 +15,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+import javax.servlet.ServletException;
 /*import com.imooc.o2o.interceptor.shopadmin.ShopLoginInterceptor;
 import com.imooc.o2o.interceptor.shopadmin.ShopPermissionInterceptor;
 import com.imooc.o2o.interceptor.superadmin.SuperAdminLoginInterceptor;*/
@@ -42,8 +47,8 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
 	 */
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/resources/**").addResourceLocations("classpath:/resources/");
-		//registry.addResourceHandler("/upload/**").addResourceLocations("file:/Users/baidu/work/image/upload/");
+		//registry.addResourceHandler("/resources/**").addResourceLocations("classpath:/resources/");
+		registry.addResourceHandler("/upload/**").addResourceLocations("file:/home/o2o/upload/");
 	}
 
 	/**
@@ -88,7 +93,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
 		return multipartResolver;
 	}
 
-	/*@Value("${kaptcha.border}")
+	@Value("${kaptcha.border}")
 	private String border;
 
 	@Value("${kaptcha.textproducer.font.color}")
@@ -115,9 +120,9 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
 	@Value("${kaptcha.textproducer.font.names}")
 	private String fnames;
 
-	*//**
+	/**
 	 * 由于web.xml不生效了，需要在这里配置Kaptcha验证码Servlet
-	 *//*
+	 */
 	@Bean
 	public ServletRegistrationBean servletRegistrationBean() throws ServletException {
 		ServletRegistrationBean servlet = new ServletRegistrationBean(new KaptchaServlet(), "/Kaptcha");
@@ -133,7 +138,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
 		return servlet;
 	}
 
-	*//**
+	/**
 	 * 添加拦截器配置
 	 *//*
 	@Override
